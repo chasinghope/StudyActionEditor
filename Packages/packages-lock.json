@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.newtonsoft.json": {
+      "version": "1.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.nobug.nbc.action_editor": {
       "version": "file:ActionEditor-main",
       "depth": 0,

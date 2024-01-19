@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NBC.ActionEditor.ActionClip" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAARCAAAIAECCAAAEAAgUARAIAAgAICAQAAAAAAACAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Assets\ActionClip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.Asset" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgRAAAIAAAAAAAAAAEAAgABgAIAgAAAAAAIAAEAAABA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Assets\Asset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NBC.ActionEditor.DirectableAsset" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAAAEAABAEAAAAAAQIAAgAAABAAAAAgAACAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Assets\DirectableAsset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NBC.ActionEditor.Group" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAEAACABBEEAAQAQAIAAgAAAAACAYIAAACAg=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Assets\Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.InspectorPreviewAsset" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Assets\InspectorPreviewAsset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.Track" Collapsed="true">
+    <Position X="7.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAEAQAAEAEAQAQAIAAggAGAQBgAoFAgCAg=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Assets\Track.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.OrderAttribute" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.MenuNameAttribute" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.OptionParamAttribute" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.OptionSortAttribute" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.OptionRelateParamAttribute" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.SelectObjectPathAttribute" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.CustomInspectors" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.NameAttribute" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.CategoryAttribute" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.DescriptionAttribute" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.ShowIconAttribute" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAhAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.ColorAttribute" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.AttachableAttribute" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.UniqueAttribute" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.CustomPreviewAttribute" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.RequiredAttribute" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Attributes\PropertyAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.Prefs" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAABAAECBAAAAAAAHQADAAEKACgAAAQAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Const\Prefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.IDirectableExtensions" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACCAIEAAEABACAAAAAAAAIAAAIAAAACAEAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Extensions\IDirectableExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.StringExtensions" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Extensions\StringExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.AttributesUtility" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Utility\AttributesUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.ColorUtility" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Utility\ColorUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.CreateUtilities" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Utility\CreateUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.DirectorUtility" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIIAAAAAAAAABAAQAAgAAAAAAFhAAAAACAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Utility\DirectorUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.Easing" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgAQgQBQAQBIhJVAQAAsAwBFAAAAAADAABgIAAYg=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Utility\Easing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.RectUtility" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAEAAAAAAAAgAgAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Utility\RectUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBC.ActionEditor.ReflectionTools" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACIAAgIMECBAAAAAQgBgAEsEAAAEAAhIRAKQKAUQ=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Utility\ReflectionTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="NBC.ActionEditor.IData" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Interfaces\IData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NBC.ActionEditor.IDirector">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Interfaces\IDirector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NBC.ActionEditor.ISubClipContainable">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAgAAAAQAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Interfaces\ISubClipContainable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="NBC.ActionEditor.WrapMode" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Const\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NBC.ActionEditor.EaseType" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAQQoEBQmABIgIRAAAAgUCAAQAAAgASAACAIgAAA=</HashCode>
+      <FileName>Packages\ActionEditor-main\Runtime\Utility\Easing.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
