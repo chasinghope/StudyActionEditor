@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97ac26ae6f95fe54b8744ba657858841, type: 3}
-  m_Name: Test_BuffData
+  m_Name: SpeedDown
   m_EditorClassIdentifier: 
   id: 2
-  buffName: "\u51CF\u901Fbuff"
-  description: "\u589E\u52A0\u901F\u5EA610\u70B9\uFF0C\u6301\u7EED10\u79D2"
+  buffName: SpeedDown
+  description: "\u51CF\u901Fbuff  \u51CF\u901F\u901F\u5EA610\u70B9\uFF0C\u6301\u7EED10\u79D2"
   icon: {fileID: 0}
   priority: 1
   maxStack: 1

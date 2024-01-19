@@ -14,6 +14,8 @@ public class ChangePropertyBM : BaseBuffModule
             actor.property.hp += property.hp;
             actor.property.ack += property.ack;
             actor.property.speed += property.speed;
+
+            actor?.actorInfoUI.Refresh();
         }
     }
 }

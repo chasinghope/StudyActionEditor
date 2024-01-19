@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97ac26ae6f95fe54b8744ba657858841, type: 3}
-  m_Name: Test_BuffData 1
+  m_Name: SpeedUp
   m_EditorClassIdentifier: 
-  id: 0
-  buffName: "\u751F\u6210\u7ACB\u65B9\u5757"
-  description: 
+  id: 1
+  buffName: SpeedUp
+  description: "\u52A0\u901Fbuff\uFF0C\u589E\u52A0\u901F\u5EA610\u70B9\uFF0C\u6301\u7EED10\u79D2"
   icon: {fileID: 0}
   priority: 1
   maxStack: 1
   tags: []
-  isForever: 1
-  duration: 0
+  isForever: 0
+  duration: 10
   tickTime: 0
-  buffUpdateTime: 2
+  buffUpdateTime: 0
   buffRemoveStackUpdate: 0
-  OnCreate: {fileID: 11400000, guid: 927d994fba02cb84dba20f3f2dbec465, type: 2}
-  OnRemove: {fileID: 0}
+  OnCreate: {fileID: 11400000, guid: f087d7703af0a244781f112e417b23a1, type: 2}
+  OnRemove: {fileID: 11400000, guid: e6d5b18091b198a4bb779387a9957fae, type: 2}
   OnTick: {fileID: 0}
   OnHit: {fileID: 0}
   OnBehurt: {fileID: 0}

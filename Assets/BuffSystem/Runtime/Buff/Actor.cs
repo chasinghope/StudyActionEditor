@@ -3,7 +3,7 @@ using UnityEngine;
 public class Actor : MonoBehaviour
 {
     public Property property;
-
+    public ActorInfoUI actorInfoUI;
 
     public bool IsCanBekill(DamageInfo damageInfo)
     {

@@ -15,6 +15,9 @@ public class BuffHandler : MonoBehaviour
 
     private void BuffTickAndRemove()
     {
+        if (buffList.Count <= 0)
+            return;
+
         List<BuffInfo> deleteBuffList = ListPool<BuffInfo>.Get();
         var enumrator = buffList.GetEnumerator();
         while (enumrator.MoveNext())
@@ -85,7 +88,7 @@ public class BuffHandler : MonoBehaviour
             }
             else
             {
-                Debug.Log("超出最大层");
+                //Debug.Log("超出最大层");
             }
         }
         else
@@ -107,6 +110,7 @@ public class BuffHandler : MonoBehaviour
             case BuffRemoveStackUpdateEnum.Clear:
                 buffInfo.buffData?.OnRemove.Apply(buffInfo);
                 buffList.Remove(buffInfo);
+                BuffInfoPool.Release(buffInfo);
                 break;
             case BuffRemoveStackUpdateEnum.Reduce:
                 buffInfo.curStack--;
@@ -114,6 +118,7 @@ public class BuffHandler : MonoBehaviour
                 if (buffInfo.curStack == 0)
                 {
                     buffList.Remove(buffInfo);
+                    BuffInfoPool.Release(buffInfo);
                 }
                 else
                 {

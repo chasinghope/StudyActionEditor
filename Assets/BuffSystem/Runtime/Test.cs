@@ -10,15 +10,25 @@ public class Test : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("press down space");
-            buffHandler.AddBuff(new BuffInfo() { buffData = buffData, target = gameObject });
+            BuffInfo buffInfo = BuffManager.instance.GetBuffByName("SpeedDown", gameObject, gameObject);
+            buffHandler.AddBuff(buffInfo);
+            //buffHandler.AddBuff(new BuffInfo() { buffData = buffData, target = gameObject });
         }
 
 
         if(Input.GetKeyDown(KeyCode.A))
         {
             Debug.Log("press A space");
-            buffHandler.AddBuff(new BuffInfo() { buffData = buffData2, target = gameObject, creator = gameObject });
+            BuffInfo buffInfo = BuffManager.instance.GetBuffByName("SpeedUp", gameObject, gameObject);
+            buffHandler.AddBuff(buffInfo);
         }
 
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            Debug.Log("press B space");
+            BuffInfo buffInfo = BuffManager.instance.GetBuffByName("CreateCube", gameObject, gameObject);
+            buffHandler.AddBuff(buffInfo);
+        }
     }
 }
