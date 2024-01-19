@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97ac26ae6f95fe54b8744ba657858841, type: 3}
   m_Name: Test_BuffData
   m_EditorClassIdentifier: 
-  id: 0
-  buffName: "\u52A0\u901Fbuff"
+  id: 2
+  buffName: "\u51CF\u901Fbuff"
   description: "\u589E\u52A0\u901F\u5EA610\u70B9\uFF0C\u6301\u7EED10\u79D2"
   icon: {fileID: 0}
   priority: 1
@@ -24,8 +24,8 @@ MonoBehaviour:
   tickTime: 0
   buffUpdateTime: 0
   buffRemoveStackUpdate: 0
-  OnCreate: {fileID: 11400000, guid: f087d7703af0a244781f112e417b23a1, type: 2}
-  OnRemove: {fileID: 11400000, guid: e6d5b18091b198a4bb779387a9957fae, type: 2}
+  OnCreate: {fileID: 11400000, guid: e6d5b18091b198a4bb779387a9957fae, type: 2}
+  OnRemove: {fileID: 11400000, guid: f087d7703af0a244781f112e417b23a1, type: 2}
   OnTick: {fileID: 0}
   OnHit: {fileID: 0}
   OnBehurt: {fileID: 0}

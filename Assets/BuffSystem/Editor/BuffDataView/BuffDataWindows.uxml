@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="BuffList" style="flex-grow: 1; width: 80px;">
+            <ui:VisualElement style="flex-grow: 0; height: 20px; background-color: rgb(31, 48, 87);">
+                <ui:Label text="BuffList" display-tooltip-when-elided="true" style="margin-left: 5px; -unity-text-align: upper-left;" />
+            </ui:VisualElement>
+            <ui:ListView focusable="true" view-data-key="w" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Inspector" style="flex-grow: 1; width: 60%;">
+            <ui:VisualElement style="width: 100%; height: 20px; -unity-text-outline-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0);">
+                <ui:Label text="Inspector" display-tooltip-when-elided="true" style="margin-left: 5px; -unity-text-align: upper-left;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; width: 100%;">
+                <ui:IMGUIContainer style="flex-grow: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

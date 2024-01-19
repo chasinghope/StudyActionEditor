@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.alelievr.node-graph-processor": {
+      "version": "file:NodeGraphProcessor-1.3.0",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.newtonsoft.json": {
       "version": "1.0.1",
       "depth": 0,
